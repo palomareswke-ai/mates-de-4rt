@@ -1,5 +1,5 @@
 {
-  "versio": 4,
+  "versio": 5,
   "consulta": "2026-11-22",
   "animals": {
     "Panthera leo": {
@@ -125,34 +125,34 @@
     },
     "Canis anthus": {
       "nomCientific": "Canis anthus — llop daurat africà",
-      "pesMascle": "Pendent de verificar",
-      "pesFemella": "Pendent de verificar",
-      "midesMascle": "Pendent de verificar",
-      "midesFemella": "Pendent de verificar",
-      "midesNota": "Encara no s’han incorporat mides documentades per sexe.",
+      "pesMascle": "6,3–15 kg, segons ADW (2020)",
+      "pesFemella": "6,5–10 kg, segons ADW (2020)",
+      "midesMascle": "Longitud cap i cos: 75–89,3 cm; cua: 20–34,7 cm, segons ADW",
+      "midesFemella": "Longitud cap i cos: 68–82,2 cm; cua: 20–29 cm, segons ADW",
+      "midesNota": "Els mascles són més grans que les femelles. La longitud indicada és cap i cos, sense incloure la cua.",
       "vida": "ADW (2020) publica 6–8 anys com a longevitat habitual en llibertat, 7 anys com a mitjana i 14 anys com a màxim documentat en llibertat; en captivitat, fins a 18 anys.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: nord d’Àfrica, des de Somàlia a Senegal i des d’Algèria a Kenya, segons ADW (2020).",
+      "habitat": "Praderies, sabanes, deserts i zones semidesèrtiques, boscos temperats i manglars, zones muntanyoses, terres agrícoles i àrees rurals. Prefereix les praderies; l’accés a l’aigua és un factor limitant.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar amb una font específica i actualitzada; no s’assigna una categoria sense font.","font":null},
       "fonts": [
-        {"nom":"Animal Diversity Web (2020) — longevitat","url":"https://animaldiversity.org/accounts/Canis_anthus/"}
+        {"nom":"Animal Diversity Web (2020) — pes, longitud, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Canis_anthus/"}
       ]
     },
     "Phacochoerus africanus": {
       "nomCientific": "Phacochoerus africanus — facoquer comú",
       "pesMascle": "Rang general de l’espècie: 50–150 kg; interval específic per sexe pendent de verificar",
       "pesFemella": "Rang general de l’espècie: 50–150 kg; les femelles són un 15–20% més lleugeres que els mascles, segons ADW",
-      "midesMascle": "Mides específiques pendent de verificar",
-      "midesFemella": "Mides específiques pendent de verificar",
-      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "midesMascle": "Longitud cap i cos general: 90–150 cm; alçada a l’espatlla general: 63,5–85 cm; mides específiques per sexe pendent de verificar",
+      "midesFemella": "Longitud cap i cos general: 90–150 cm; alçada a l’espatlla general: 63,5–85 cm; mides específiques per sexe pendent de verificar",
+      "midesNota": "ADW no separa el rang de longitud ni d’alçada per sexe. La longitud indicada és cap i cos, sense incloure la cua.",
       "vida": "ADW publica 7–11 anys com a edat mitjana de mort en un estudi de Tanzània, 15–18 anys com a màxim documentat en llibertat i 20,9 anys com a mitjana en captivitat.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: Àfrica, des de Mauritània a Etiòpia i cap al sud fins a Namíbia i l’est de Sud-àfrica, fora de les zones forestals, segons ADW.",
+      "habitat": "Sabanes obertes i boscoses, estepes herbàcies i semideserts. Evita la selva densa i els deserts extrems; utilitza zones amb aigua o tolls per refrescar-se i caus per protegir-se de la fred.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar amb una font específica i actualitzada; no s’assigna una categoria sense font.","font":null},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Phacochoerus_africanus/"}
+        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Phacochoerus_africanus/"}
       ]
     },
     "Gazella gazella": {
@@ -163,12 +163,12 @@
       "midesFemella": "Mides específiques pendent de verificar",
       "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
       "vida": "ADW indica que rarament viuen més de 8 anys en llibertat; en captivitat, 12–15 anys.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: península Aràbiga, Egipte, Iran, Israel, Jordània, Líban, Oman, Aràbia Saudita, Síria, Iemen i Emirats Àrabs Units, segons ADW.",
+      "habitat": "Zones muntanyoses i amb turons, amb boscos clars, camps o altiplans desèrtics. Solen descansar als turons durant el dia i baixar a buscar aliment al vespre o al matí.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar amb una font específica i actualitzada; no s’assigna una categoria sense font.","font":null},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Gazella_gazella/"}
+        {"nom":"Animal Diversity Web — pes, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Gazella_gazella/"}
       ]
     },
     "Equus zebra": {
