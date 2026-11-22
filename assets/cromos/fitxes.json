@@ -1,5 +1,5 @@
 {
-  "versio": 5,
+  "versio": 6,
   "consulta": "2026-11-22",
   "animals": {
     "Panthera leo": {
@@ -86,9 +86,9 @@
       "zones": "Distribució general: Àfrica, Aràbia, Àsia central, el subcontinent indi, sud-est asiàtic i sud de la Xina, amb poblacions al nord-est de la Xina, la península de Corea i l’extrem oriental de Rússia. La distribució actual pot variar entre subespècies.",
       "habitat": "Boscos, sabanes i praderies; també zones muntanyoses, matollars i deserts. Prefereix zones amb arbres, que utilitza per descansar, alimentar-se i amagar preses.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":"NT","ambit":"ADW recull la categoria «Gairebé amenaçat» de la Llista Vermella. És una font de 2011; cal revisar l’avaluació actual de la Llista Vermella abans de considerar-la definitiva.","font":"https://animaldiversity.org/accounts/Panthera_pardus/"},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Panthera_pardus/"}
+        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució, hàbitat i conservació","url":"https://animaldiversity.org/accounts/Panthera_pardus/"}
       ]
     },
     "Acinonyx jubatus": {
@@ -102,7 +102,7 @@
       "zones": "Distribució general: Àfrica, amb presència documentada en 25 països del continent abans de 2005 segons ADW; la distribució actual és molt més fragmentada i cal verificar-la per país.",
       "habitat": "Praderies i zones desèrtiques o semidesèrtiques; és un animal terrestre, tot i que ocasionalment pot pujar als arbres.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar amb una font específica i actualitzada; no s’assigna una categoria sense font.","font":null},
       "fonts": [
         {"nom":"Animal Diversity Web — mida, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Acinonyx_jubatus/"}
       ]
@@ -118,7 +118,7 @@
       "zones": "Distribució general: Àfrica subsahariana, amb densitats molt variables. ADW recull registres confirmats des de 1970 a Tanzània, Kenya, Zàmbia, Zimbàbue, Moçambic, Sud-àfrica, Botswana, Namíbia, Congo, Sudan, República Centreafricana, Camerun, Nigèria, Burkina Faso, Costa d’Ivori, Mali, Senegal i Sierra Leone.",
       "habitat": "Hàbitats oberts i secs: semideserts, sabanes, matollars d’acàcia i boscos muntanyosos. És menys freqüent en boscos densos i no viu als boscos pluvials costaners de l’Àfrica occidental i central.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar amb una font específica i actualitzada; no s’assigna una categoria sense font.","font":null},
       "fonts": [
         {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Crocuta_crocuta/"}
       ]
@@ -173,34 +173,34 @@
     },
     "Equus zebra": {
       "nomCientific": "Equus zebra — zebra de muntanya",
-      "pesMascle": "Pendent de verificar",
-      "pesFemella": "Pendent de verificar",
-      "midesMascle": "Mides específiques pendent de verificar",
-      "midesFemella": "Mides específiques pendent de verificar",
-      "midesNota": "Encara no s’han incorporat mides documentades per sexe.",
+      "pesMascle": "Cebra de muntanya del Cap: 250–260 kg de mitjana; cebra de muntanya de Hartmann: 298 kg de mitjana, segons ADW (2005)",
+      "pesFemella": "Cebra de muntanya del Cap: 234 kg de mitjana; cebra de muntanya de Hartmann: 276 kg de mitjana, segons ADW (2005)",
+      "midesMascle": "Longitud cap i cos: 210–260 cm; cua: 40–55 cm; alçada a l’espatlla: 116–150 cm, segons ADW",
+      "midesFemella": "Longitud cap i cos: 210–260 cm; cua: 40–55 cm; alçada a l’espatlla: 116–150 cm, segons ADW",
+      "midesNota": "ADW no separa el rang general de longitud ni d’alçada per sexe, però recull mitjanes de pes diferents per sexe i subespècie. La longitud indicada és cap i cos, sense incloure la cua.",
       "vida": "ADW publica una mitjana de 20 anys en llibertat i fins a 29,5–30 anys en captivitat; també recull una mitjana de 24 anys per a femelles en llibertat.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "La cebra de muntanya del Cap viu només a Sud-àfrica, amb poblacions naturals al Parc Nacional de la Zebra de Muntanya, la reserva de Gamka Mountain i les muntanyes Kamanassie. La cebra de muntanya de Hartmann viu des de Namíbia fins al sud-oest extrem d’Angola, amb una distribució molt discontinua.",
+      "habitat": "Laderes i altiplans de zones muntanyoses de Sud-àfrica i Namíbia. La subespècie del Cap pot arribar fins a 2.000 m d’altitud i baixa a cotes inferiors a l’hivern; la de Hartmann viu en una zona àrida de transició al límit del desert del Namib, on ha de desplaçar-se entre muntanyes i planes sorrenques per trobar herba i aigua.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":"VU","ambit":"ADW recull la categoria «Vulnerable» de la Llista Vermella per a l’espècie, però és una font de 2005 i no substitueix l’avaluació actual de la Llista Vermella. Les subespècies poden tenir categories diferents.","font":"https://animaldiversity.org/accounts/Equus_zebra/"},
       "fonts": [
-        {"nom":"Animal Diversity Web — longevitat","url":"https://animaldiversity.org/accounts/Equus_zebra/"}
+        {"nom":"Animal Diversity Web (2005) — pes, longitud, longevitat, distribució, hàbitat i conservació","url":"https://animaldiversity.org/accounts/Equus_zebra/"}
       ]
     },
     "Puma concolor": {
       "nomCientific": "Puma concolor — puma o lleó de muntanya",
       "pesMascle": "36–120 kg, segons ADW",
       "pesFemella": "29–64 kg, segons ADW",
-      "midesMascle": "Mides específiques pendent de verificar",
-      "midesFemella": "Mides específiques pendent de verificar",
-      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "midesMascle": "Longitud cap i cos: 102–154 cm; cua: 68–96 cm, segons ADW",
+      "midesFemella": "Longitud cap i cos: 86–131 cm; cua: 63–79 cm, segons ADW",
+      "midesNota": "Els mascles són més grans que les femelles. La longitud indicada és cap i cos, sense incloure la cua.",
       "vida": "ADW publica 18–20 anys en llibertat i una mitjana de 20 anys en captivitat.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: Amèrica, des del sud-est d’Alaska i el Canadà fins al sud de l’Argentina i Xile. La població oriental d’Amèrica del Nord va ser exterminada, excepte una població petita de puma de Florida; les poblacions poden ampliar-se cap a zones habitades, especialment a l’oest dels Estats Units.",
+      "habitat": "Boscos de coníferes de muntanya, boscos tropicals de terres baixes, praderies, matollars secs, aiguamolls i qualsevol zona amb cobertura vegetal i preses suficients. També pot utilitzar zones suburbanes, agrícoles i de ribera.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "conservacio": {"codi":"LC","ambit":"ADW recull la categoria «Preocupació menor» de la Llista Vermella per a l’espècie. És una font de 2003; algunes subespècies i poblacions poden estar amenaçades, per la qual cosa cal revisar l’avaluació actual abans de considerar-la definitiva.","font":"https://animaldiversity.org/accounts/Puma_concolor/"},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Puma_concolor/"}
+        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució, hàbitat i conservació","url":"https://animaldiversity.org/accounts/Puma_concolor/"}
       ]
     }
   }
