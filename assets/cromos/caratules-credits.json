@@ -1,0 +1,72 @@
+{
+  "mamifers": {
+    "cromo": 1,
+    "credit": {
+      "autor": "Sumit.pamnani  at  English Wikipedia",
+      "licencia": "Public domain",
+      "url": "",
+      "font": "https://commons.wikimedia.org/wiki/File:Lion_in_masai_mara.jpg",
+      "titol": "Lion in masai mara",
+      "canvis": "Redimensionada i convertida a JPEG; sense retallar",
+      "avis": "",
+      "copyright": "",
+      "credit_original": "Transferred from  en.wikipedia  to Commons by  Leptictidium  using  CommonsHelper ."
+    }
+  },
+  "aus": {
+    "cromo": 51,
+    "credit": {
+      "autor": "Rhododendrites",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "font": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg",
+      "titol": "House sparrow male in Prospect Park (53532)",
+      "canvis": "Redimensionada i convertida a JPEG; sense retallar",
+      "avis": "",
+      "copyright": "",
+      "credit_original": "Own work"
+    }
+  },
+  "reptils": {
+    "cromo": 101,
+    "credit": {
+      "autor": "Dewet",
+      "licencia": "CC BY-SA 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "font": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg",
+      "titol": "NileCrocodile",
+      "canvis": "Redimensionada i convertida a JPEG; sense retallar",
+      "avis": "",
+      "copyright": "",
+      "credit_original": "Own work"
+    }
+  },
+  "aquatics": {
+    "cromo": 151,
+    "credit": {
+      "autor": "NASA",
+      "licencia": "Public domain",
+      "url": "",
+      "font": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg",
+      "titol": "Tursiops truncatus 01",
+      "canvis": "Redimensionada i convertida a JPEG; sense retallar",
+      "avis": "",
+      "copyright": "",
+      "credit_original": "https://images.nasa.gov/details/KSC-04pd0178 \n http://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=21807 on the Wayback Machine  at the  Wayback Machine"
+    }
+  },
+  "insectes": {
+    "cromo": 201,
+    "credit": {
+      "autor": "Rhododendrites",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "font": "https://commons.wikimedia.org/wiki/File:Monarch_caterpillar_(23229).jpg",
+      "titol": "Monarch caterpillar (23229)",
+      "canvis": "Redimensionada i convertida a JPEG; sense retallar",
+      "avis": "",
+      "copyright": "",
+      "credit_original": "Own work"
+    }
+  }
+}
