@@ -82,6 +82,7 @@ function comprovaExercici() {
   if (correcte) {
     missatge.className = 'correcte';
     missatge.textContent = 'Molt bé! Has encertat.';
+    desbloquejaCromoPerEncert();
   } else {
     missatge.className = 'incorrecte';
     missatge.textContent = 'Revisa-ho i torna-ho a provar.';
