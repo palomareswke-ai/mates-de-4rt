@@ -133,9 +133,16 @@ function comprovaExercici() {
 
   if (ronda.encerts + ronda.errors >= ronda.total) {
     finalitzaRonda();
-  } else {
-    setTimeout(generaExercici, 1200);
+    return;
   }
+
+  const area = document.getElementById('exercici');
+  const botoSeguent = document.createElement('button');
+  botoSeguent.type = 'button';
+  botoSeguent.id = 'seguent';
+  botoSeguent.textContent = 'Següent exercici';
+  botoSeguent.addEventListener('click', generaExercici);
+  area.appendChild(botoSeguent);
 }
 
 function calculaCromos(nivell, encerts, total) {
