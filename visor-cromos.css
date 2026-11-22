@@ -1,0 +1,9 @@
+#visor-cromos { padding: 16px; border: 0; border-radius: 16px; background: #0f172a; color: white; width: fit-content; max-width: 96vw; max-height: 96vh; max-height: 96dvh; overflow: auto; }
+#visor-cromos::backdrop { background: rgb(0 0 0 / 85%); }
+#visor-cromos .visor-foto { display: block; width: auto; height: auto; max-width: 88vw; max-height: 72vh; max-height: 72dvh; object-fit: contain; margin: 12px auto; cursor: zoom-out; }
+#visor-cromos .visor-nom, #visor-cromos .visor-ajuda { margin: 8px 0; text-align: center; }
+#visor-cromos .visor-ajuda { font-size: 0.85rem; color: #cbd5e1; }
+#visor-cromos .visor-tanca { display: block; margin-left: auto; background: #334155; border-color: #94a3b8; }
+img[data-ampliable] { cursor: zoom-in; }
+img[data-ampliable]:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+html.visor-cromos-obert { overflow: hidden; }
