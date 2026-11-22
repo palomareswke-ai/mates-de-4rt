@@ -1,0 +1,40 @@
+name: Caràtules OpenMoji
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/caratules_openmoji.py', '.github/workflows/caratules-openmoji.yml']
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: preparar-imatges
+  cancel-in-progress: false
+jobs:
+  caratules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'requests>=2.32,<3'
+      - run: python scripts/caratules_openmoji.py
+      - name: Desa caràtules i atribucions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/cromos js/cromos-animals.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'Substitueix fotos de portada per dibuixos OpenMoji'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Actualitza Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds || echo '::warning::Revisa el desplegament de Pages.'
