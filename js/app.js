@@ -21,7 +21,7 @@ const CLAU_DIFICULTAT = 'mates-de-4rt-dificultat';
 
 function fraccioVerticalHtml(text) {
   return text.replace(/(\d+)\/(\d+)/g, (coincidencia, numerador, denominador) => {
-    return `<span style='display:inline-flex;flex-direction:column;align-items:center;margin:0 0.25rem;vertical-align:middle;'><span style='padding:0 0.25rem;'>${numerador}</span><span style='width:100%;height:2px;background:#111827;'></span><span style='padding:0 0.25rem;'>${denominador}</span></span>`;
+    return `<span class='fraccio-vertical'><span class='numerador'>${numerador}</span><span class='linia'></span><span class='denominador'>${denominador}</span></span>`;
   });
 }
 
