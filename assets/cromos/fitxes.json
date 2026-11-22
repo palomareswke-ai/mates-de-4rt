@@ -1,0 +1,34 @@
+{
+  "versio": 1,
+  "consulta": "2026-11-22",
+  "animals": {
+    "Panthera leo": {
+      "nomCientific": "Panthera leo",
+      "pesMascle": "150–260 kg (adults)",
+      "pesFemella": "122–180 kg (adultes)",
+      "midesMascle": "Longitud corporal: 1,7–2,5 m; cua indicada separadament",
+      "midesFemella": "Longitud corporal: 1,4–1,7 m; cua indicada separadament",
+      "midesNota": "Cua: 70–105 cm, rang general sense separació per sexe.",
+      "vida": "En llibertat, pocs mascles superen els 10 anys; les femelles solen arribar als 15–16 anys, segons la fitxa d’ADW publicada el 2004. No són edats garantides ni un màxim absolut.",
+      "zones": "Poblacions disperses de l’Àfrica subsahariana i una població asiàtica a Gujarat, a l’Índia.",
+      "habitat": "Sabanes, praderies, matollars i boscos oberts.",
+      "poblacio": {
+        "text": "22.000–25.000",
+        "any": 2025,
+        "ambit": "Àfrica; no és un recompte mundial",
+        "unitat": "lleons adults i subadults en llibertat",
+        "font": "https://www.catsg.org/living-species-lions"
+      },
+      "conservacio": {
+        "codi": "VU",
+        "ambit": "Espècie a escala mundial; les subpoblacions poden tenir una categoria diferent",
+        "font": "https://www.catsg.org/living-species-lions"
+      },
+      "fonts": [
+        {"nom": "San Diego Zoo — pes i longitud corporal", "url": "https://animals.sandiegozoo.org/animals/lion"},
+        {"nom": "Animal Diversity Web (2004) — longevitat en llibertat", "url": "https://animaldiversity.org/accounts/Panthera_leo/"},
+        {"nom": "IUCN SSC Cat Specialist Group — població, distribució i conservació", "url": "https://www.catsg.org/living-species-lions"}
+      ]
+    }
+  }
+}
