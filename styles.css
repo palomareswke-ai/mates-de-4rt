@@ -1,100 +1,58 @@
-/* Estils per a la pantalla de recompensa */
-
-.graella-cromos-guanyats {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 0.75rem;
-  margin: 1rem 0;
-}
-
-.cromo-tapat {
-  border: 2px solid #cbd5e1;
-  border-radius: 12px;
-  overflow: hidden;
-  background: white;
-  cursor: pointer;
-  padding: 0;
-}
-
-.cromo-tapat img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  display: block;
-}
-
-.cromo-tapat span {
-  display: block;
-  padding: 0.5rem;
-  font-size: 0.85rem;
-  text-align: center;
-}
-
-.cromo-tapat.destapat {
-  border-color: #16a34a;
-}
-
-/* Fraccions en vertical */
-
-.fraccio-vertical {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 0.35rem;
-  vertical-align: middle;
-  line-height: 1.1;
-}
-
-.fraccio-vertical .numerador,
-.fraccio-vertical .denominador {
-  padding: 0 0.35rem;
-}
-
-.fraccio-vertical .linia {
-  width: 100%;
-  height: 2px;
-  background: #111827;
-}
-
-/* Crèdits discrets */
-
-.credits {
-  margin-top: 2rem;
-  padding: 0.75rem 1rem;
-  font-size: 0.75rem;
-  color: #6b7280;
-  text-align: center;
-}
-
-/* Ajustos per a mòbil */
-
+* { box-sizing: border-box; }
+:root { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #172554; background: #eff6ff; line-height: 1.5; }
+body { margin: 0; padding: 24px 16px; }
+header, main, .credits { width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; }
+header { text-align: center; margin-bottom: 24px; }
+h1 { font-size: clamp(2rem, 6vw, 2.75rem); margin: 0 0 8px; color: #1d4ed8; }
+h2 { font-size: 1.5rem; }
+h2, h3, h4 { line-height: 1.3; overflow-wrap: anywhere; }
+header p { margin: 0; color: #475569; }
+main > section { padding: 24px; background: white; border: 1px solid #dbeafe; border-radius: 20px; box-shadow: 0 8px 28px #1e40af12; }
+.ocult, [hidden] { display: none !important; }
+#menu { display: grid; gap: 12px; }
+button, input, select { font: inherit; }
+button { min-height: 48px; padding: 12px 18px; border: 1px solid #1d4ed8; border-radius: 12px; background: #2563eb; color: white; cursor: pointer; white-space: normal; overflow-wrap: anywhere; touch-action: manipulation; }
+button:hover { background: #1d4ed8; }
+button:disabled { opacity: 0.55; cursor: default; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+.mode, #obrir-album { width: 100%; text-align: left; font-weight: 600; }
+#obrir-album { background: #0f766e; border-color: #0f766e; }
+#tornar, #tornar-album, #revisar, #nou { background: #eff6ff; color: #1e40af; border-color: #bfdbfe; }
+.opcions, .accions-exercici, .entrada-fraccio { display: flex; align-items: end; flex-wrap: wrap; gap: 12px; }
+.opcions { margin: 20px 0; }
+.accions-exercici { margin-top: 20px; }
+.entrada-fraccio { margin: 16px 0; }
+label { display: flex; flex-direction: column; gap: 6px; min-width: 0; max-width: 100%; }
+input, select { min-height: 48px; max-width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid #94a3b8; border-radius: 10px; background: white; color: #172554; }
+.entrada-fraccio input { width: 112px; }
+#exercici { min-width: 0; }
+#enunciat { font-size: 1.15rem; line-height: 1.9; overflow-wrap: anywhere; }
+#exercici > button { margin: 12px 8px 0 0; }
+#seguent { background: #0f766e; border-color: #0f766e; }
+#missatge:not(:empty), #missatge-cromos:not(:empty) { padding: 12px 16px; border-radius: 10px; }
+.correcte { color: #166534; background: #dcfce7; }
+.incorrecte { color: #991b1b; background: #fee2e2; }
+img, svg, canvas { max-width: 100%; }
+img { display: block; }
+.administracio-cromos input { width: 100%; }
+.graella-cromos-guanyats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr)); gap: 12px; margin: 16px 0; }
+.cromo-tapat { min-width: 0; border: 2px solid #cbd5e1; border-radius: 12px; overflow: hidden; background: white; color: #172554; cursor: pointer; padding: 0; }
+.cromo-tapat:hover { background: #f0f9ff; }
+.cromo-tapat img { width: 100%; height: 100px; object-fit: cover; }
+.cromo-tapat span { display: block; padding: 8px; font-size: 0.85rem; text-align: center; }
+.cromo-tapat.destapat { border-color: #16a34a; }
+.fraccio-vertical { display: inline-flex; flex-direction: column; align-items: center; margin: 0 0.3rem; vertical-align: middle; line-height: 1.2; white-space: nowrap; }
+.fraccio-vertical .numerador, .fraccio-vertical .denominador { padding: 2px 0.35rem; }
+.fraccio-vertical .linia { align-self: stretch; height: 2px; background: currentColor; }
+.credits { margin-top: 24px; padding: 12px; font-size: 0.75rem; color: #64748b; text-align: center; }
 @media (max-width: 600px) {
-  body {
-    padding: 0.75rem;
-  }
-
-  .mode,
-  #obrir-album {
-    width: 100%;
-  }
-
-  .opcions {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5rem;
-  }
-
-  .accions-exercici {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .fraccio-vertical {
-    font-size: 0.95rem;
-    margin: 0 0.2rem;
-  }
-
-  .graella-cromos-guanyats {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  }
+  body { padding: 20px 12px; }
+  main > section { padding: 16px; border-radius: 16px; }
+  .opcions, .accions-exercici { flex-direction: column; align-items: stretch; }
+  .opcions > *, .accions-exercici > * { width: 100%; }
+  #exercici > button { width: 100%; margin-right: 0; }
+  .entrada-fraccio > label { flex: 1 1 100px; }
+  .entrada-fraccio input, .entrada-fraccio select { width: 100%; }
+  #enunciat { font-size: 1.1rem; }
+  .graella-cromos-guanyats { grid-template-columns: repeat(auto-fit, minmax(min(120px, 100%), 1fr)); }
 }
