@@ -1,5 +1,5 @@
 {
-  "versio": 3,
+  "versio": 4,
   "consulta": "2026-11-22",
   "animals": {
     "Panthera leo": {
@@ -83,12 +83,12 @@
       "midesFemella": "Longitud total: 1,7–1,9 m, segons ADW",
       "midesNota": "La longitud inclou la cua. Els rangs són amplis perquè el leopardo viu en moltes poblacions diferents.",
       "vida": "En llibertat, ADW publica 10–12 anys com a longevitat típica i 17 anys com a màxim documentat. En captivitat, 21–23 anys; el màxim registrat és de 27 anys.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: Àfrica, Aràbia, Àsia central, el subcontinent indi, sud-est asiàtic i sud de la Xina, amb poblacions al nord-est de la Xina, la península de Corea i l’extrem oriental de Rússia. La distribució actual pot variar entre subespècies.",
+      "habitat": "Boscos, sabanes i praderies; també zones muntanyoses, matollars i deserts. Prefereix zones amb arbres, que utilitza per descansar, alimentar-se i amagar preses.",
       "poblacio": null,
       "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes, longitud i longevitat","url":"https://animaldiversity.org/accounts/Panthera_pardus/"}
+        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Panthera_pardus/"}
       ]
     },
     "Acinonyx jubatus": {
@@ -99,28 +99,28 @@
       "midesFemella": "Longitud corporal: 112–150 cm; alçada a l’espatlla: 67–94 cm, segons ADW",
       "midesNota": "ADW no publica un rang físic separat per sexe en el fragment consultat; els mascles solen pesar més que les femelles.",
       "vida": "ADW indica que els mascles observats van morir entre 6 i 8 anys, i que les femelles que sobreviuen a la independència tenen una mitjana de 6,2 anys. En captivitat, la mitjana publicada és de 17–19 anys.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: Àfrica, amb presència documentada en 25 països del continent abans de 2005 segons ADW; la distribució actual és molt més fragmentada i cal verificar-la per país.",
+      "habitat": "Praderies i zones desèrtiques o semidesèrtiques; és un animal terrestre, tot i que ocasionalment pot pujar als arbres.",
       "poblacio": null,
       "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
       "fonts": [
-        {"nom":"Animal Diversity Web — mida i longevitat","url":"https://animaldiversity.org/accounts/Acinonyx_jubatus/"}
+        {"nom":"Animal Diversity Web — mida, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Acinonyx_jubatus/"}
       ]
     },
     "Crocuta crocuta": {
       "nomCientific": "Crocuta crocuta",
       "pesMascle": "45–60 kg, segons ADW",
       "pesFemella": "55–70 kg o més, segons ADW",
-      "midesMascle": "Mides específiques pendent de verificar",
-      "midesFemella": "Mides específiques pendent de verificar",
-      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "midesMascle": "Longitud general de l’espècie: 95–150 cm; mides específiques per sexe pendent de verificar",
+      "midesFemella": "Longitud general de l’espècie: 95–150 cm; mides específiques per sexe pendent de verificar",
+      "midesNota": "ADW publica una longitud general de 95–150 cm i una alçada a l’espatlla d’aproximadament 75–85 cm; no separa aquests rangs per sexe.",
       "vida": "ADW publica aproximadament 20 anys en llibertat i un màxim documentat de 41 anys i 1 mes en captivitat.",
-      "zones": "Distribució pendent de verificar.",
-      "habitat": "Hàbitat pendent de verificar.",
+      "zones": "Distribució general: Àfrica subsahariana, amb densitats molt variables. ADW recull registres confirmats des de 1970 a Tanzània, Kenya, Zàmbia, Zimbàbue, Moçambic, Sud-àfrica, Botswana, Namíbia, Congo, Sudan, República Centreafricana, Camerun, Nigèria, Burkina Faso, Costa d’Ivori, Mali, Senegal i Sierra Leone.",
+      "habitat": "Hàbitats oberts i secs: semideserts, sabanes, matollars d’acàcia i boscos muntanyosos. És menys freqüent en boscos densos i no viu als boscos pluvials costaners de l’Àfrica occidental i central.",
       "poblacio": null,
       "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Crocuta_crocuta/"}
+        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Crocuta_crocuta/"}
       ]
     },
     "Canis anthus": {
