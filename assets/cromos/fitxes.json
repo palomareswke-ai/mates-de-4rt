@@ -1,5 +1,5 @@
 {
-  "versio": 2,
+  "versio": 3,
   "consulta": "2026-11-22",
   "animals": {
     "Panthera leo": {
@@ -73,6 +73,134 @@
       "fonts": [
         {"nom":"IUCN SSC Cat Specialist Group — mida general, longevitat, població, hàbitat i conservació","url":"https://www.catsg.org/living-species-tiger"},
         {"nom":"San Diego Zoo — variació de mida entre sexes i poblacions","url":"https://animals.sandiegozoo.org/animals/tiger"}
+      ]
+    },
+    "Panthera pardus": {
+      "nomCientific": "Panthera pardus",
+      "pesMascle": "31–65 kg, segons ADW",
+      "pesFemella": "17–58 kg, segons ADW",
+      "midesMascle": "Longitud total: 1,6–2,3 m, segons ADW",
+      "midesFemella": "Longitud total: 1,7–1,9 m, segons ADW",
+      "midesNota": "La longitud inclou la cua. Els rangs són amplis perquè el leopardo viu en moltes poblacions diferents.",
+      "vida": "En llibertat, ADW publica 10–12 anys com a longevitat típica i 17 anys com a màxim documentat. En captivitat, 21–23 anys; el màxim registrat és de 27 anys.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — pes, longitud i longevitat","url":"https://animaldiversity.org/accounts/Panthera_pardus/"}
+      ]
+    },
+    "Acinonyx jubatus": {
+      "nomCientific": "Acinonyx jubatus",
+      "pesMascle": "Rang general de l’espècie: 21–72 kg; interval específic per sexe pendent de verificar",
+      "pesFemella": "Rang general de l’espècie: 21–72 kg; interval específic per sexe pendent de verificar",
+      "midesMascle": "Longitud corporal: 112–150 cm; alçada a l’espatlla: 67–94 cm, segons ADW",
+      "midesFemella": "Longitud corporal: 112–150 cm; alçada a l’espatlla: 67–94 cm, segons ADW",
+      "midesNota": "ADW no publica un rang físic separat per sexe en el fragment consultat; els mascles solen pesar més que les femelles.",
+      "vida": "ADW indica que els mascles observats van morir entre 6 i 8 anys, i que les femelles que sobreviuen a la independència tenen una mitjana de 6,2 anys. En captivitat, la mitjana publicada és de 17–19 anys.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — mida i longevitat","url":"https://animaldiversity.org/accounts/Acinonyx_jubatus/"}
+      ]
+    },
+    "Crocuta crocuta": {
+      "nomCientific": "Crocuta crocuta",
+      "pesMascle": "45–60 kg, segons ADW",
+      "pesFemella": "55–70 kg o més, segons ADW",
+      "midesMascle": "Mides específiques pendent de verificar",
+      "midesFemella": "Mides específiques pendent de verificar",
+      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "vida": "ADW publica aproximadament 20 anys en llibertat i un màxim documentat de 41 anys i 1 mes en captivitat.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Crocuta_crocuta/"}
+      ]
+    },
+    "Canis anthus": {
+      "nomCientific": "Canis anthus — llop daurat africà",
+      "pesMascle": "Pendent de verificar",
+      "pesFemella": "Pendent de verificar",
+      "midesMascle": "Pendent de verificar",
+      "midesFemella": "Pendent de verificar",
+      "midesNota": "Encara no s’han incorporat mides documentades per sexe.",
+      "vida": "ADW (2020) publica 6–8 anys com a longevitat habitual en llibertat, 7 anys com a mitjana i 14 anys com a màxim documentat en llibertat; en captivitat, fins a 18 anys.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web (2020) — longevitat","url":"https://animaldiversity.org/accounts/Canis_anthus/"}
+      ]
+    },
+    "Phacochoerus africanus": {
+      "nomCientific": "Phacochoerus africanus — facoquer comú",
+      "pesMascle": "Rang general de l’espècie: 50–150 kg; interval específic per sexe pendent de verificar",
+      "pesFemella": "Rang general de l’espècie: 50–150 kg; les femelles són un 15–20% més lleugeres que els mascles, segons ADW",
+      "midesMascle": "Mides específiques pendent de verificar",
+      "midesFemella": "Mides específiques pendent de verificar",
+      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "vida": "ADW publica 7–11 anys com a edat mitjana de mort en un estudi de Tanzània, 15–18 anys com a màxim documentat en llibertat i 20,9 anys com a mitjana en captivitat.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Phacochoerus_africanus/"}
+      ]
+    },
+    "Gazella gazella": {
+      "nomCientific": "Gazella gazella — gacela de muntanya",
+      "pesMascle": "17–29,5 kg, segons ADW",
+      "pesFemella": "16–25 kg, segons ADW",
+      "midesMascle": "Mides específiques pendent de verificar",
+      "midesFemella": "Mides específiques pendent de verificar",
+      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "vida": "ADW indica que rarament viuen més de 8 anys en llibertat; en captivitat, 12–15 anys.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Gazella_gazella/"}
+      ]
+    },
+    "Equus zebra": {
+      "nomCientific": "Equus zebra — zebra de muntanya",
+      "pesMascle": "Pendent de verificar",
+      "pesFemella": "Pendent de verificar",
+      "midesMascle": "Mides específiques pendent de verificar",
+      "midesFemella": "Mides específiques pendent de verificar",
+      "midesNota": "Encara no s’han incorporat mides documentades per sexe.",
+      "vida": "ADW publica una mitjana de 20 anys en llibertat i fins a 29,5–30 anys en captivitat; també recull una mitjana de 24 anys per a femelles en llibertat.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — longevitat","url":"https://animaldiversity.org/accounts/Equus_zebra/"}
+      ]
+    },
+    "Puma concolor": {
+      "nomCientific": "Puma concolor — puma o lleó de muntanya",
+      "pesMascle": "36–120 kg, segons ADW",
+      "pesFemella": "29–64 kg, segons ADW",
+      "midesMascle": "Mides específiques pendent de verificar",
+      "midesFemella": "Mides específiques pendent de verificar",
+      "midesNota": "ADW no publica en el fragment consultat un rang de longitud separat per sexe.",
+      "vida": "ADW publica 18–20 anys en llibertat i una mitjana de 20 anys en captivitat.",
+      "zones": "Distribució pendent de verificar.",
+      "habitat": "Hàbitat pendent de verificar.",
+      "poblacio": null,
+      "conservacio": {"codi":null,"ambit":"Pendent de verificar; no s’assigna una categoria sense font específica.","font":null},
+      "fonts": [
+        {"nom":"Animal Diversity Web — pes i longevitat","url":"https://animaldiversity.org/accounts/Puma_concolor/"}
       ]
     }
   }
