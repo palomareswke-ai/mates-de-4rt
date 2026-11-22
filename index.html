@@ -17,6 +17,25 @@
 <button class="mode" data-mode="operacions">➗ Operacions</button>
 <button class="mode" data-mode="grafiques">🎨 Fraccions gràfiques</button>
 <button class="mode" data-mode="problemes">🍰 Problemes de comprensió</button>
+
+<section id="cromos">
+<h3>Col·lecció de cromos</h3>
+<p>Els cromos arribaran aviat. De moment pots practicar i guanyar punts.</p>
+<div id="llista-cromos"></div>
+
+<div class="administracio-cromos" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e5e7eb;">
+<h4>Administració de cromos</h4>
+<div style="display: grid; gap: 0.5rem; margin-bottom: 0.75rem;">
+<input type="password" id="contrasenya-cromos" placeholder="Contrasenya" autocomplete="off">
+<input type="number" id="numero-cromo" min="1" max="100" placeholder="Número de cromo">
+</div>
+<div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<button type="button" id="desbloqueja-cromo">Desbloqueja</button>
+<button type="button" id="bloqueja-cromo">Bloqueja</button>
+</div>
+<p id="missatge-cromos"></p>
+</div>
+</section>
 </section>
 
 <section id="joc" class="ocult">
@@ -34,12 +53,6 @@
 </div>
 <div id="exercici"></div>
 <p id="missatge"></p>
-</section>
-
-<section id="cromos">
-<h3>Col·lecció de cromos</h3>
-<p>Els cromos arribaran aviat. De moment pots practicar i guanyar punts.</p>
-<div id="llista-cromos"></div>
 </section>
 </main>
 
