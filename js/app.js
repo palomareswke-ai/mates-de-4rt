@@ -17,6 +17,14 @@ const EXERCICIS_PER_RONDA = {
   dificil: 5
 };
 
+const CLAU_DIFICULTAT = 'mates-de-4rt-dificultat';
+
+function fraccioVerticalHtml(text) {
+  return text.replace(/(\d+)\/(\d+)/g, (coincidencia, numerador, denominador) => {
+    return `<span style='display:inline-flex;flex-direction:column;align-items:center;margin:0 0.25rem;vertical-align:middle;'><span style='padding:0 0.25rem;'>${numerador}</span><span style='width:100%;height:2px;background:#111827;'></span><span style='padding:0 0.25rem;'>${denominador}</span></span>`;
+  });
+}
+
 function mostraMenu() {
   document.getElementById('album').classList.add('ocult');
   document.getElementById('joc').classList.add('ocult');
@@ -73,7 +81,7 @@ function generaExercici() {
 
   const enunciat = document.createElement('p');
   enunciat.id = 'enunciat';
-  enunciat.textContent = `Exercici ${ronda.encerts + ronda.errors + 1} de ${ronda.total}\n${exerciciActual.enunciat}`;
+  enunciat.innerHTML = `Exercici ${ronda.encerts + ronda.errors + 1} de ${ronda.total}<br>${fraccioVerticalHtml(exerciciActual.enunciat)}`;
   area.appendChild(enunciat);
 
   exerciciActual.render(area);
@@ -90,7 +98,7 @@ function generaExercici() {
     document.getElementById('missatge').textContent = '';
     const enunciatNou = document.createElement('p');
     enunciatNou.id = 'enunciat';
-    enunciatNou.textContent = `Exercici ${ronda.encerts + ronda.errors + 1} de ${ronda.total}\n${exerciciActual.enunciat}`;
+    enunciatNou.innerHTML = `Exercici ${ronda.encerts + ronda.errors + 1} de ${ronda.total}<br>${fraccioVerticalHtml(exerciciActual.enunciat)}`;
     area.appendChild(enunciatNou);
     exerciciActual.render(area);
     area.appendChild(accions);
@@ -235,6 +243,16 @@ function finalitzaRonda() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  const dificultatDesada = localStorage.getItem(CLAU_DIFICULTAT);
+
+  if (['facil', 'mitja', 'dificil'].includes(dificultatDesada)) {
+    document.getElementById('dificultat').value = dificultatDesada;
+  }
+
+  document.getElementById('dificultat').addEventListener('change', event => {
+    localStorage.setItem(CLAU_DIFICULTAT, event.target.value);
+  });
+
   document.querySelectorAll('.mode').forEach(boto => {
     boto.addEventListener('click', event => {
       mostraJoc(event.currentTarget.dataset.mode);
