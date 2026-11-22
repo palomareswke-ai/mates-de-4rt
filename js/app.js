@@ -43,6 +43,34 @@ function generaExercici() {
   area.appendChild(enunciat);
 
   exerciciActual.render(area);
+
+  const accions = document.createElement('div');
+  accions.className = 'accions-exercici';
+
+  const revisar = document.createElement('button');
+  revisar.type = 'button';
+  revisar.id = 'revisar';
+  revisar.textContent = 'Revisa el plantejament';
+  revisar.addEventListener('click', () => {
+    area.innerHTML = '';
+    document.getElementById('missatge').textContent = '';
+    const enunciatNou = document.createElement('p');
+    enunciatNou.id = 'enunciat';
+    enunciatNou.textContent = exerciciActual.enunciat;
+    area.appendChild(enunciatNou);
+    exerciciActual.render(area);
+    area.appendChild(accions);
+  });
+
+  const comprovar = document.createElement('button');
+  comprovar.type = 'button';
+  comprovar.id = 'comprovar';
+  comprovar.textContent = 'Comprova';
+  comprovar.addEventListener('click', comprovaExercici);
+
+  accions.appendChild(revisar);
+  accions.appendChild(comprovar);
+  area.appendChild(accions);
 }
 
 function comprovaExercici() {
@@ -69,10 +97,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('tornar').addEventListener('click', mostraMenu);
   document.getElementById('nou').addEventListener('click', generaExercici);
-
-  const comprovar = document.createElement('button');
-  comprovar.id = 'comprovar';
-  comprovar.textContent = 'Comprova';
-  comprovar.addEventListener('click', comprovaExercici);
-  document.getElementById('joc').appendChild(comprovar);
 });
