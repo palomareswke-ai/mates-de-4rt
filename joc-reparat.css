@@ -1,0 +1,11 @@
+.fraccio-grafica { display:grid; gap:2px; width:100%; margin:16px 0; padding:4px; border:2px solid #475569; border-radius:8px; background:#cbd5e1; }
+.fraccio-grafica .part { display:block; width:100%; min-width:0; min-height:48px; padding:0; border:1px solid #64748b; border-radius:3px; background:#fff; box-shadow:none; }
+.fraccio-grafica button.part:hover { background:#dbeafe; }
+.fraccio-grafica .part.pintada, .fraccio-grafica button.part.pintada:hover { background:#f59e0b; border-color:#92400e; box-shadow:inset 0 0 0 2px #b45309; }
+.opcions-equivalents { display:flex; flex-wrap:wrap; gap:12px; margin:16px 0; }
+.opcio-equivalent { min-width:80px; background:#fff; color:#172554; border:2px solid #64748b; }
+.opcio-equivalent:hover { background:#eff6ff; }
+.opcio-equivalent.seleccionada, .opcio-equivalent.seleccionada:hover { background:#fef3c7; border-color:#92400e; color:#172554; box-shadow:0 0 0 2px #f59e0b; }
+.resposta-fraccio { display:inline-grid; grid-template-columns:minmax(0,140px); justify-items:stretch; gap:6px; margin:16px 0; }
+.resposta-fraccio input { width:100%; text-align:center; }
+.ratlla-resposta { height:2px; background:#172554; width:100%; }

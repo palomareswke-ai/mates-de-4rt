@@ -6,13 +6,13 @@
 <title>Mates de 4rt</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="visor-cromos.css">
+<link rel="stylesheet" href="joc-reparat.css">
 </head>
 <body>
 <header>
 <h1>Mates de 4rt</h1>
 <p>Tria un mode de joc</p>
 </header>
-
 <main>
 <section id="menu">
 <button class="mode" data-mode="operacions">➗ Operacions</button>
@@ -20,13 +20,11 @@
 <button class="mode" data-mode="problemes">🍰 Problemes de comprensió</button>
 <button id="obrir-album">📖 Àlbum de cromos</button>
 </section>
-
 <section id="album" class="ocult">
 <button id="tornar-album">← Tornar</button>
 <h2>Àlbum de cromos</h2>
 <p>Guanya exercicis per desbloquejar cromos. Els cromos pendents mostren la caràtula de la seva categoria i el seu número.</p>
 <div id="coleccio-cromos"></div>
-
 <div class="administracio-cromos" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e5e7eb;">
 <h4>Administració de cromos</h4>
 <div style="display: grid; gap: 0.5rem; margin-bottom: 0.75rem;">
@@ -40,7 +38,6 @@
 <p id="missatge-cromos"></p>
 </div>
 </section>
-
 <section id="joc" class="ocult">
 <button id="tornar">← Tornar</button>
 <h2 id="titol-mode"></h2>
@@ -52,21 +49,18 @@
 <option value="dificil">Difícil</option>
 </select>
 </label>
-<button id="nou">Nou exercici</button>
+<button id="nou" hidden>Nou exercici</button>
 </div>
+<p>La puntuació i els premis compten el primer intent. Pots tornar-ho a intentar per practicar.</p>
 <div id="exercici"></div>
 <p id="missatge"></p>
 </section>
 </main>
-
 <footer class="credits">Crèdits de les imatges disponibles amb el catàleg de cromos.</footer>
-
-<script src="js/fraccions.js"></script>
-<script src="js/fraccions-grafiques.js"></script>
 <script src="js/problemes-comprensio.js"></script>
 <script src="js/cromos-animals.js"></script>
 <script src="js/cromos.js"></script>
-<script src="js/app.js"></script>
+<script src="js/joc-reparat.js"></script>
 <script src="js/visor-cromos.js"></script>
 </body>
 </html>
