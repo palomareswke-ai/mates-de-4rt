@@ -3,27 +3,27 @@
     {
       "id": "mamifers",
       "nom": "Mamífers terrestres",
-      "imatge": "assets/cromos/caratules/mamifers.jpg"
+      "imatge": "assets/cromos/caratules/mamifers.svg"
     },
     {
       "id": "aus",
       "nom": "Aus",
-      "imatge": "assets/cromos/caratules/aus.jpg"
+      "imatge": "assets/cromos/caratules/aus.svg"
     },
     {
       "id": "reptils",
       "nom": "Rèptils i amfibis",
-      "imatge": "assets/cromos/caratules/reptils.jpg"
+      "imatge": "assets/cromos/caratules/reptils.svg"
     },
     {
       "id": "aquatics",
       "nom": "Animals aquàtics",
-      "imatge": "assets/cromos/caratules/aquatics.jpg"
+      "imatge": "assets/cromos/caratules/aquatics.svg"
     },
     {
       "id": "insectes",
       "nom": "Insectes i invertebrats",
-      "imatge": "assets/cromos/caratules/insectes.jpg"
+      "imatge": "assets/cromos/caratules/insectes.svg"
     }
   ],
   "CROMOS": [
