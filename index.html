@@ -1,77 +1,52 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mates de 4rt</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mates de 4rt</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Mates de 4rt</h1>
-    <p>Apren matemàtiques jugant</p>
-  </header>
+<header>
+<h1>Mates de 4rt</h1>
+<p>Tria un mode de joc</p>
+</header>
 
-  <main>
-    <section id="menu">
-      <h2>Tria un tema</h2>
-      <button class="tema" data-tema="fraccions">Fraccions</button>
-      <button class="tema" disabled>Més temes aviat</button>
-    </section>
+<main>
+<section id="menu">
+<button class="mode" data-mode="operacions">➗ Operacions</button>
+<button class="mode" data-mode="grafiques">🎨 Fraccions gràfiques</button>
+<button class="mode" data-mode="problemes">🍰 Problemes de comprensió</button>
+</section>
 
-    <section id="fraccions" class="ocult">
-      <button class="tornar">← Tornar al menú</button>
-      <h2>Fraccions</h2>
+<section id="joc" class="ocult">
+<button id="tornar">← Tornar</button>
+<h2 id="titol-mode"></h2>
+<div class="opcions">
+<label>Dificultat
+<select id="dificultat">
+<option value="facil">Fàcil</option>
+<option value="mitja">Mitjana</option>
+<option value="dificil">Difícil</option>
+</select>
+</label>
+<button id="nou">Nou exercici</button>
+</div>
+<div id="exercici"></div>
+<p id="missatge"></p>
+</section>
 
-      <div class="opcions">
-        <label>
-          Tipus de joc
-          <select id="tipus">
-            <option value="suma">Suma</option>
-            <option value="resta">Resta</option>
-            <option value="multiplicacio">Multiplicació</option>
-            <option value="divisio">Divisió</option>
-          </select>
-        </label>
+<section id="cromos">
+<h3>Col·lecció de cromos</h3>
+<p>Els cromos arribaran aviat. De moment pots practicar i guanyar punts.</p>
+<div id="llista-cromos"></div>
+</section>
+</main>
 
-        <label>
-          Dificultat
-          <select id="dificultat">
-            <option value="facil">Fàcil</option>
-            <option value="mitja">Mitjana</option>
-            <option value="dificil">Difícil</option>
-          </select>
-        </label>
-
-        <button id="nou-exercici">Nou exercici</button>
-      </div>
-
-      <div id="exercici" class="ocult">
-        <p id="enunciat"></p>
-        <div id="passos"></div>
-
-        <label>
-          Resultat
-          <input id="numerador" type="number" placeholder="Numerador">
-          <span>/</span>
-          <input id="denominador" type="number" placeholder="Denominador">
-        </label>
-
-        <button id="comprovar">Comprova</button>
-        <p id="missatge"></p>
-      </div>
-
-      <section id="cromos">
-        <h3>Col·lecció de cromos</h3>
-        <p>Els cromos arribaran aviat. De moment pots practicar i guanyar punts.</p>
-        <div id="llista-cromos"></div>
-      </section>
-    </section>
-  </main>
-
-  <script src="js/dificultat.js"></script>
-  <script src="js/fraccions.js"></script>
-  <script src="js/cromos.js"></script>
-  <script src="js/app.js"></script>
+<script src="js/fraccions.js"></script>
+<script src="js/fraccions-grafiques.js"></script>
+<script src="js/problemes-comprensio.js"></script>
+<script src="js/cromos.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
