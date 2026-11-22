@@ -12,7 +12,7 @@ const TITOLS = {
 };
 
 const EXERCICIS_PER_RONDA = {
-  facil: 3,
+  facil: 5,
   mitja: 5,
   dificil: 5
 };
