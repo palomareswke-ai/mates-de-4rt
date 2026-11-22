@@ -1,5 +1,5 @@
 {
-  "versio": 6,
+  "versio": 7,
   "consulta": "2026-11-22",
   "animals": {
     "Panthera leo": {
@@ -86,9 +86,10 @@
       "zones": "Distribució general: Àfrica, Aràbia, Àsia central, el subcontinent indi, sud-est asiàtic i sud de la Xina, amb poblacions al nord-est de la Xina, la península de Corea i l’extrem oriental de Rússia. La distribució actual pot variar entre subespècies.",
       "habitat": "Boscos, sabanes i praderies; també zones muntanyoses, matollars i deserts. Prefereix zones amb arbres, que utilitza per descansar, alimentar-se i amagar preses.",
       "poblacio": null,
-      "conservacio": {"codi":"NT","ambit":"ADW recull la categoria «Gairebé amenaçat» de la Llista Vermella. És una font de 2011; cal revisar l’avaluació actual de la Llista Vermella abans de considerar-la definitiva.","font":"https://animaldiversity.org/accounts/Panthera_pardus/"},
+      "conservacio": {"codi":"VU","ambit":"Categoria global de la Llista Vermella segons el IUCN SSC Cat Specialist Group. Les subespècies i subpoblacions poden tenir una categoria diferent. Substitueix la categoria històrica d’ADW.","font":"https://www.catsg.org/living-species-leopard"},
       "fonts": [
-        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució, hàbitat i conservació","url":"https://animaldiversity.org/accounts/Panthera_pardus/"}
+        {"nom":"Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat; no s’utilitza el seu estat de conservació antic","url":"https://animaldiversity.org/accounts/Panthera_pardus/"},
+        {"nom":"IUCN SSC Cat Specialist Group — conservació global","url":"https://www.catsg.org/living-species-leopard"}
       ]
     },
     "Acinonyx jubatus": {
@@ -102,9 +103,10 @@
       "zones": "Distribució general: Àfrica, amb presència documentada en 25 països del continent abans de 2005 segons ADW; la distribució actual és molt més fragmentada i cal verificar-la per país.",
       "habitat": "Praderies i zones desèrtiques o semidesèrtiques; és un animal terrestre, tot i que ocasionalment pot pujar als arbres.",
       "poblacio": null,
-      "conservacio": {"codi":null,"ambit":"Pendent de verificar amb una font específica i actualitzada; no s’assigna una categoria sense font.","font":null},
+      "conservacio": {"codi":"VU","ambit":"Categoria global de la Llista Vermella segons el IUCN SSC Cat Specialist Group. Les subespècies i subpoblacions poden tenir una categoria diferent.","font":"https://www.catsg.org/living-species-cheetah"},
       "fonts": [
-        {"nom":"Animal Diversity Web — mida, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Acinonyx_jubatus/"}
+        {"nom":"Animal Diversity Web — mida, longevitat, distribució i hàbitat","url":"https://animaldiversity.org/accounts/Acinonyx_jubatus/"},
+        {"nom":"IUCN SSC Cat Specialist Group — conservació global","url":"https://www.catsg.org/living-species-cheetah"}
       ]
     },
     "Crocuta crocuta": {
