@@ -1,0 +1,49 @@
+name: Preparar imatges locals
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/prepara_imatges.py', '.github/workflows/imatges.yml']
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: preparar-imatges
+  cancel-in-progress: false
+jobs:
+  imatges:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'requests>=2.32,<3' 'Pillow>=11,<13'
+      - name: Descarrega i comprova
+        run: python scripts/prepara_imatges.py
+      - name: Desa imatges i catàleg
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/cromos js/cromos-animals.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'Desa cromos locals, caràtules i crèdits'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Sol·licita reconstrucció de Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST repos/${{ github.repository }}/pages/builds || echo '::warning::No s’ha pogut sol·licitar el build de Pages; revisa el desplegament.'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: informe-imatges
+          path: |
+            assets/cromos/informe.json
+            assets/cromos/credits.json
