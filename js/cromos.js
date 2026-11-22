@@ -50,7 +50,6 @@ function desbloquejaCromoAleatori() {
   const numeroNou = disponibles[Math.floor(Math.random() * disponibles.length)];
   desbloquejats.push(numeroNou);
   desarCromosDesbloquejats(desbloquejats);
-  mostraCromos();
   return numeroNou;
 }
 
@@ -81,7 +80,6 @@ function mostraCromos() {
 
     for (let numero = 1; numero <= 50; numero++) {
       const id = index * 50 + numero;
-      const cromo = window.CROMOS_ANIMALS.CROMOS[id - 1];
       const desbloquejat = desbloquejats.includes(id);
 
       const targeta = document.createElement('div');
