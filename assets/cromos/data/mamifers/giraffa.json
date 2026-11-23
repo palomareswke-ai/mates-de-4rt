@@ -1,0 +1,45 @@
+{
+  "nomCientific": "Giraffa spp. — fitxa general de diverses espècies de girafa",
+  "pesMascle": "973–1.395 kg; mitjana publicada: aproximadament 1.192 kg (fitxa tècnica de San Diego Zoo)",
+  "pesFemella": "703–950 kg; mitjana publicada: aproximadament 828 kg (mateixa font)",
+  "midesMascle": "Alçada a l’espatlla: 3,13–3,47 m; fins a uns 5,5 m d’alçada total",
+  "midesFemella": "Alçada a l’espatlla: 2,72–2,92 m; fins a uns 4,5 m d’alçada total",
+  "midesNota": "La fitxa reuneix diverses espècies. L’alçada total inclou el coll i el cap; l’alçada a l’espatlla, no.",
+  "vida": "San Diego Zoo indica un rang general de 15–20 anys, sense separar sexes ni precisar el context en el resum. No es presenta com una mitjana específica en llibertat.",
+  "zones": "Poblacions disperses de l’Àfrica subsahariana; cada espècie té una distribució diferent.",
+  "habitat": "Sabanes i planes obertes amb arbres i arbustos dels quals s’alimenten.",
+  "poblacio": {
+    "text": "aproximadament 140.000",
+    "any": 2025,
+    "ambit": "Àfrica; conjunt de les espècies de girafa, no una única espècie",
+    "unitat": "girafes en llibertat",
+    "font": "https://giraffeconservation.org/facts-about-giraffe/how-many-giraffe-are-there-and-are-they-endangered/"
+  },
+  "conservacio": {
+    "codi": null,
+    "ambit": "No s’assigna una categoria única al gènere Giraffa. Algunes espècies i subespècies estan amenaçades; cal identificar l’espècie abans de mostrar una alerta concreta.",
+    "font": "https://giraffeconservation.org/giraffe-conservation-status/"
+  },
+  "fonts": [
+    {
+      "nom": "San Diego Zoo — característiques físiques per sexe",
+      "url": "https://ielc.libguides.com/sdzg/factsheets/giraffes/characteristics"
+    },
+    {
+      "nom": "San Diego Zoo — resum tècnic i alçada total",
+      "url": "https://ielc.libguides.com/sdzg/factsheets/giraffes"
+    },
+    {
+      "nom": "San Diego Zoo — longevitat i hàbitat",
+      "url": "https://animals.sandiegozoo.org/animals/giraffe"
+    },
+    {
+      "nom": "Giraffe Conservation Foundation — població conjunta, informe 2025",
+      "url": "https://giraffeconservation.org/facts-about-giraffe/how-many-giraffe-are-there-and-are-they-endangered/"
+    },
+    {
+      "nom": "Giraffe Conservation Foundation — estats de conservació diferenciats",
+      "url": "https://giraffeconservation.org/giraffe-conservation-status/"
+    }
+  ]
+}
