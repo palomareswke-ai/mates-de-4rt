@@ -1,0 +1,31 @@
+{
+  "nomCientific": "Loxodonta africana — elefant africà de sabana",
+  "pesMascle": "4.500–6.100 kg, rang d’adults publicat per ADW (2017)",
+  "pesFemella": "2.000–3.500 kg, rang d’adultes publicat per ADW (2017)",
+  "midesMascle": "Alçada a l’espatlla: 3,2–4 m, segons ADW",
+  "midesFemella": "Alçada a l’espatlla: 2,2–2,6 m, segons ADW",
+  "midesNota": "L’alçada es mesura fins a l’espatlla, no fins a la punta de la trompa. Els rangs no descriuen tots els individus.",
+  "vida": "ADW (2017) publica 60–70 anys en llibertat. És una dada bibliogràfica general, no una predicció de supervivència de les poblacions actuals ni un valor separat per sexe.",
+  "zones": "Poblacions de l’Àfrica oriental, central i austral.",
+  "habitat": "Sabanes, boscos oberts, planes inundables i alguns boscos de muntanya, amb accés a aigua i vegetació.",
+  "poblacio": null,
+  "conservacio": {
+    "codi": "EN",
+    "ambit": "Elefant africà de sabana: avaluació global de 2020. No confondre amb l’elefant africà de bosc (Loxodonta cyclotis). No s’ha verificat aquí una xifra mundial recent exclusiva d’aquesta espècie.",
+    "font": "https://www.iucnredlist.org/species/181008073/223031019"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2017) — pes, alçada i longevitat; no s’utilitza el seu estat de conservació antic",
+      "url": "https://animaldiversity.org/accounts/Loxodonta_africana/"
+    },
+    {
+      "nom": "San Diego Zoo — distribució, hàbitat i distinció entre espècies",
+      "url": "https://animals.sandiegozoo.org/animals/elephant"
+    },
+    {
+      "nom": "UICN — Loxodonta africana, en perill (avaluació 2020)",
+      "url": "https://www.iucnredlist.org/species/181008073/223031019"
+    }
+  ]
+}
