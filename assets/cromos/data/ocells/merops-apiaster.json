@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Merops apiaster — abellerol",
+  "pesMascle": "44–66 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "44–66 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 25–29 cm; envergadura: 36–40 cm, segons ADW",
+  "midesFemella": "Longitud: 25–29 cm; envergadura: 36–40 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull el mateix rang de pes per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 10 anys en llibertat.",
+  "zones": "Europa, nord d’Àfrica i parts d’Àsia durant la reproducció; passa l’hivern a l’Àfrica subsahariana, segons ADW.",
+  "habitat": "Zones obertes, praderies, camps, sabanes, boscos poc densos i entorns rurals; fa el niu en túnels excavats a talussos de terra, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Merops_apiaster/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Merops_apiaster/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Merops_apiaster/"
+    }
+  ]
+}
