@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Canis anthus — llop daurat africà",
+  "pesMascle": "6,3–15 kg, segons ADW (2020)",
+  "pesFemella": "6,5–10 kg, segons ADW (2020)",
+  "midesMascle": "Longitud cap i cos: 75–89,3 cm; cua: 20–34,7 cm, segons ADW",
+  "midesFemella": "Longitud cap i cos: 68–82,2 cm; cua: 20–29 cm, segons ADW",
+  "midesNota": "Els mascles són més grans que les femelles. La longitud indicada és cap i cos, sense incloure la cua.",
+  "vida": "ADW (2020) publica 6–8 anys com a longevitat habitual en llibertat, 7 anys com a mitjana i 14 anys com a màxim documentat en llibertat; en captivitat, fins a 18 anys.",
+  "zones": "Distribució general: nord d’Àfrica, des de Somàlia a Senegal i des d’Algèria a Kenya, segons ADW (2020).",
+  "habitat": "Praderies, sabanes, deserts i zones semidesèrtiques, boscos temperats i manglars, zones muntanyoses, terres agrícoles i àrees rurals. Prefereix les praderies; l’accés a l’aigua és un factor limitant.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha localitzat una estimació global fiable en les fonts consultades; no significa absència d’individus.",
+    "unitat": "individus en llibertat",
+    "font": "https://www.animaldiversity.org/accounts/Canis_anthus/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "Preocupació menor a escala global, segons ADW; tendència decreixent. No equival a absència d’amenaces locals.",
+    "font": "https://www.animaldiversity.org/accounts/Canis_anthus/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web — pes, longitud, longevitat, distribució, hàbitat i conservació",
+      "url": "https://www.animaldiversity.org/accounts/Canis_anthus/"
+    }
+  ]
+}
