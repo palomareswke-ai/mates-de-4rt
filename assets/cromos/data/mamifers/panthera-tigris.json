@@ -1,0 +1,33 @@
+{
+  "nomCientific": "Panthera tigris",
+  "pesMascle": "Interval separat per sexe pendent de verificar; els mascles solen ser més grans. Vegeu el rang general a la nota.",
+  "pesFemella": "Interval separat per sexe pendent de verificar. No s’atribueix a les femelles tot el rang de l’espècie.",
+  "midesMascle": "Interval general separat per sexe pendent de verificar",
+  "midesFemella": "Interval general separat per sexe pendent de verificar",
+  "midesNota": "El Cat Specialist Group publica 75–325 kg, 150–230 cm de longitud corporal i 90–110 cm de cua com a rangs generals. La mida varia molt entre poblacions; no són rangs específics de cada sexe.",
+  "vida": "12–15 anys segons el resum del Cat Specialist Group, sense separació per sexe ni context especificat en aquesta xifra. No confondre amb els anys de vida reproductiva.",
+  "zones": "Poblacions reproductores a Bangladesh, Bhutan, Xina, Índia, Indonèsia (Sumatra), Malàisia, Myanmar, Nepal, Rússia i Tailàndia, segons el Cat Specialist Group.",
+  "habitat": "Boscos tropicals, subtropicals i temperats, manglars i praderies amb cobertura vegetal, aigua i preses suficients.",
+  "poblacio": {
+    "text": "3.726–5.578",
+    "any": 2021,
+    "ambit": "Estimació mundial; no és un cens de 2026",
+    "unitat": "tigres en llibertat, sense comptar els cadells",
+    "font": "https://www.catsg.org/living-species-tiger"
+  },
+  "conservacio": {
+    "codi": "EN",
+    "ambit": "Categoria global de la Llista Vermella. Les subpoblacions poden tenir un nivell de risc diferent.",
+    "font": "https://www.catsg.org/living-species-tiger"
+  },
+  "fonts": [
+    {
+      "nom": "IUCN SSC Cat Specialist Group — mida general, longevitat, població, hàbitat i conservació",
+      "url": "https://www.catsg.org/living-species-tiger"
+    },
+    {
+      "nom": "San Diego Zoo — variació de mida entre sexes i poblacions",
+      "url": "https://animals.sandiegozoo.org/animals/tiger"
+    }
+  ]
+}
