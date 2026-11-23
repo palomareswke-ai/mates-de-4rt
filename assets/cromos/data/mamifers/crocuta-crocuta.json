@@ -1,0 +1,37 @@
+{
+  "nomCientific": "Crocuta crocuta",
+  "pesMascle": "45–60 kg, segons ADW",
+  "pesFemella": "55–70 kg o més, segons ADW",
+  "midesMascle": "Longitud general de l’espècie: 95–150 cm; mides específiques per sexe pendent de verificar",
+  "midesFemella": "Longitud general de l’espècie: 95–150 cm; mides específiques per sexe pendent de verificar",
+  "midesNota": "ADW publica una longitud general de 95–150 cm i una alçada a l’espatlla d’aproximadament 75–85 cm; no separa aquests rangs per sexe.",
+  "vida": "ADW publica aproximadament 20 anys en llibertat i un màxim documentat de 41 anys i 1 mes en captivitat.",
+  "zones": "Distribució general: Àfrica subsahariana, amb densitats molt variables. ADW recull registres confirmats des de 1970 a Tanzània, Kenya, Zàmbia, Zimbàbue, Moçambic, Sud-àfrica, Botswana, Namíbia, Congo, Sudan, República Centreafricana, Camerun, Nigèria, Burkina Faso, Costa d’Ivori, Mali, Senegal i Sierra Leone.",
+  "habitat": "Hàbitats oberts i secs: semideserts, sabanes, matollars d’acàcia i boscos muntanyosos. És menys freqüent en boscos densos i no viu als boscos pluvials costaners de l’Àfrica occidental i central.",
+  "poblacio": {
+    "text": "27.000–47.000",
+    "any": 2015,
+    "ambit": "Estimació global citada en la referència de 2015; no és un cens de 2026 ni implica que tots els recomptes siguin de 2015.",
+    "unitat": "individus en llibertat; sense desglossament per sexe o edat",
+    "font": "https://ielc.libguides.com/sdzg/factsheets/spottedhyena/population-conservation"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "Preocupació menor a escala global. La hiena manchada no està classificada com a amenaçada globalment, encara que les poblacions locals poden estar amenaçades.",
+    "font": "https://www.iucnredlist.org/species/5674/45194782"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat",
+      "url": "https://animaldiversity.org/accounts/Crocuta_crocuta/"
+    },
+    {
+      "nom": "San Diego Zoo Wildlife Alliance — població global; referència de Bohm i Höner (2015)",
+      "url": "https://ielc.libguides.com/sdzg/factsheets/spottedhyena/population-conservation"
+    },
+    {
+      "nom": "UICN — Crocuta crocuta, preocupació menor",
+      "url": "https://www.iucnredlist.org/species/5674/45194782"
+    }
+  ]
+}
