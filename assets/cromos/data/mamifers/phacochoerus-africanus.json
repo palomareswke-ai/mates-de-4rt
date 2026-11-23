@@ -1,0 +1,46 @@
+{
+  "nomCientific": "Phacochoerus africanus — facoquer comú",
+  "pesMascle": "Rang general de l’espècie: 50–150 kg; interval específic per sexe no disponible en les fonts consultades",
+  "pesFemella": "Rang general de l’espècie: 50–150 kg; les femelles són un 15–20% més lleugeres que els mascles, segons ADW; interval específic femení no disponible en les fonts consultades",
+  "midesMascle": "Longitud cap i cos general: 90–150 cm; alçada a l’espatlla general: 63,5–85 cm; intervals específics per sexe no disponibles en les fonts consultades",
+  "midesFemella": "Longitud cap i cos general: 90–150 cm; alçada a l’espatlla general: 63,5–85 cm; intervals específics per sexe no disponibles en les fonts consultades",
+  "midesNota": "ADW no separa el rang de longitud ni d’alçada per sexe. La longitud indicada és cap i cos, sense incloure la cua. Longitud de cua verificada no disponible en aquesta revisió.",
+  "vida": "ADW publica 7–11 anys com a edat mitjana de mort en un estudi de Tanzània, 15–18 anys com a màxim documentat en llibertat i 20,9 anys com a mitjana en captivitat.",
+  "zones": "Distribució general: Àfrica, des de Mauritània a Etiòpia i cap al sud fins a Namíbia i l’est de Sud-àfrica, fora de les zones forestals, segons ADW.",
+  "habitat": "Sabanes obertes i boscoses, estepes herbàcies i semideserts. Evita la selva densa i els deserts extrems; utilitza zones amb aigua o tolls per refrescar-se i caus per protegir-se de la fred.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "Població global desconeguda segons San Diego Zoo, que cita Melletti i Meijaard (2018). No s’extrapolen recomptes regionals a tota l’espècie.",
+    "unitat": "individus en llibertat",
+    "font": "https://ielc.libguides.com/sdzg/factsheets/warthog_common/population"
+  },
+  "poblacionsRegionals": [
+    {
+      "text": "com a mínim 22.250",
+      "any": 2016,
+      "ambit": "Sud d’Àfrica; dada regional citada per Swanepoel et al. (2016), no recompte mundial ni cens de 2026",
+      "unitat": "individus",
+      "font": "https://ielc.libguides.com/sdzg/factsheets/warthog_common/population"
+    }
+  ],
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "Preocupació menor a escala global; avaluació de 2016 recollida per San Diego Zoo, amb tendència decreixent. La UICN també confirma LC en la seva comunicació de març de 2026.",
+    "font": "https://iucn.org/news/202603/experts-call-more-attention-african-wild-pigs"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web — pes, longitud, longevitat, distribució i hàbitat",
+      "url": "https://animaldiversity.org/accounts/Phacochoerus_africanus/"
+    },
+    {
+      "nom": "San Diego Zoo Wildlife Alliance — població i conservació",
+      "url": "https://ielc.libguides.com/sdzg/factsheets/warthog_common/population"
+    },
+    {
+      "nom": "UICN — conservació dels suids africans, març de 2026",
+      "url": "https://iucn.org/news/202603/experts-call-more-attention-african-wild-pigs"
+    }
+  ]
+}
