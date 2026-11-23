@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Ciconia ciconia — cigonya blanca",
+  "pesMascle": "3.200–4.400 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "3.200–4.400 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 95–110 cm; envergadura: 155–215 cm, segons ADW",
+  "midesFemella": "Longitud: 95–110 cm; envergadura: 155–215 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull el mateix rang de pes per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 35 anys.",
+  "zones": "Europa, nord-oest d’Àfrica i Àsia occidental durant la reproducció; passa l’hivern a l’Àfrica subsahariana i al subcontinent indi, segons ADW.",
+  "habitat": "Zones humides, prats, zones agrícoles i vores de rius; fa el niu en arbres, torres, xemeneies i altres estructures altes, sovint prop de zones habitades, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Ciconia_ciconia/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Ciconia_ciconia/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Ciconia_ciconia/"
+    }
+  ]
+}
