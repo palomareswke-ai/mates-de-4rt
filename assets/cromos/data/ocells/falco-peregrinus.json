@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Falco peregrinus — falcó pelegrí",
+  "pesMascle": "590–750 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "910–1.500 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 38–52 cm; envergadura: 90–110 cm, segons ADW",
+  "midesFemella": "Longitud: 42–58 cm; envergadura: 100–120 cm, segons ADW",
+  "midesNota": "ADW recull rangs de longitud i envergadura diferents per sexe, així com rangs de pes diferents per sexe.",
+  "vida": "ADW recull una longevitat màxima registrada de 20 anys en llibertat.",
+  "zones": "Distribució molt àmplia a tot el món, excepte zones polars extremes i algunes illes remotes, segons ADW. És una espècie migratòria en moltes parts de la seva àrea.",
+  "habitat": "Penya-segats, muntanyes, tundra, zones costaneres, praderies i entorns urbans; fa el niu en penya-segats o estructures altes, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Falco_peregrinus/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Falco_peregrinus/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Falco_peregrinus/"
+    }
+  ]
+}
