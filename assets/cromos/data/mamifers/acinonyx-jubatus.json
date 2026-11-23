@@ -1,0 +1,37 @@
+{
+  "nomCientific": "Acinonyx jubatus",
+  "pesMascle": "Rang general de l’espècie: 21–72 kg; interval específic per sexe pendent de verificar",
+  "pesFemella": "Rang general de l’espècie: 21–72 kg; interval específic per sexe pendent de verificar",
+  "midesMascle": "Longitud corporal: 112–150 cm; alçada a l’espatlla: 67–94 cm, segons ADW",
+  "midesFemella": "Longitud corporal: 112–150 cm; alçada a l’espatlla: 67–94 cm, segons ADW",
+  "midesNota": "ADW no publica un rang físic separat per sexe en el fragment consultat; els mascles solen pesar més que les femelles.",
+  "vida": "ADW indica que els mascles observats van morir entre 6 i 8 anys, i que les femelles que sobreviuen a la independència tenen una mitjana de 6,2 anys. En captivitat, la mitjana publicada és de 17–19 anys.",
+  "zones": "Distribució general: Àfrica, amb presència documentada en 25 països del continent abans de 2005 segons ADW; la distribució actual és molt més fragmentada i cal verificar-la per país.",
+  "habitat": "Praderies i zones desèrtiques o semidesèrtiques; és un animal terrestre, tot i que ocasionalment pot pujar als arbres.",
+  "poblacio": {
+    "text": "6.517",
+    "any": 2021,
+    "ambit": "Estimació mundial d’individus madurs",
+    "unitat": "individus madurs en llibertat",
+    "font": "https://www.iucnredlist.org/species/219/46207599"
+  },
+  "conservacio": {
+    "codi": "VU",
+    "ambit": "Categoria global de la Llista Vermella segons el IUCN SSC Cat Specialist Group. Les subespècies i subpoblacions poden tenir una categoria diferent.",
+    "font": "https://www.catsg.org/living-species-cheetah"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web — mida, longevitat, distribució i hàbitat",
+      "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/"
+    },
+    {
+      "nom": "IUCN SSC Cat Specialist Group — conservació global",
+      "url": "https://www.catsg.org/living-species-cheetah"
+    },
+    {
+      "nom": "UICN — població mundial d’individus madurs, avaluació de 2021",
+      "url": "https://www.iucnredlist.org/species/219/46207599"
+    }
+  ]
+}
