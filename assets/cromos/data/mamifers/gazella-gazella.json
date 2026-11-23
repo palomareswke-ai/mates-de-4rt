@@ -1,0 +1,57 @@
+{
+  "nomCientific": "Gazella gazella — gasela de muntanya",
+  "pesMascle": "17–29,5 kg, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "16–25 kg, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "No disponible: longitud, cua i alçada específiques per sexe no verificades en les fonts consultades",
+  "midesFemella": "No disponible: longitud, cua i alçada específiques per sexe no verificades en les fonts consultades",
+  "midesNota": "La fitxa antiga d’ADW utilitza una distribució molt més àmplia que la tractada per les fonts recents de Gazella gazella. Les dades físiques històriques no s’han de confondre amb mesures exclusives de les poblacions actuals.",
+  "vida": "ADW indica que rarament viuen més de 8 anys en llibertat; en captivitat, 12–15 anys. Dada històrica amb el mateix advertiment taxonòmic.",
+  "zones": "Llevant mediterrani; les fonts recents documenten poblacions a Israel i a Hatay, al sud de Turquia. No s’atribueix automàticament a l’espècie actual tota la distribució aràbiga de la fitxa antiga d’ADW.",
+  "habitat": "Zones muntanyoses i amb turons, amb boscos clars, camps o altiplans desèrtics. Solen descansar als turons durant el dia i baixar a buscar aliment al vespre o al matí. Descripció històrica d’ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha verificat una estimació global única i comparable. Els recomptes d’Israel i Hatay són regionals, de dates diferents, i no se sumen com si fossin un cens mundial.",
+    "unitat": "individus en llibertat",
+    "font": "https://www.mdpi.com/2076-2615/16/22/3579"
+  },
+  "poblacionsRegionals": [
+    {
+      "text": "aproximadament 5.000",
+      "any": 2021,
+      "ambit": "Israel; estimació de la referència de 2021 citada en l’article, no població global",
+      "unitat": "individus",
+      "font": "https://www.mdpi.com/2076-2615/16/22/3579"
+    },
+    {
+      "text": "1.562",
+      "any": 2025,
+      "ambit": "Població local de Hatay, Turquia; recompte local, no població global",
+      "unitat": "individus comptats",
+      "font": "https://www.mdpi.com/2076-2615/16/22/3579"
+    }
+  ],
+  "conservacio": {
+    "codi": "EN",
+    "ambit": "En perill a escala global, segons les fonts recents; no s’utilitza la categoria històrica d’ADW.",
+    "font": "https://www.iucnredlist.org/species/8989/50186574"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web — dades físiques i història natural històriques; abast taxonòmic més ampli",
+      "url": "https://animaldiversity.org/accounts/Gazella_gazella/"
+    },
+    {
+      "nom": "UICN — Gazella gazella",
+      "url": "https://www.iucnredlist.org/species/8989/50186574"
+    },
+    {
+      "nom": "Oryx — The plight of the Endangered mountain gazelle Gazella gazella (2019)",
+      "url": "https://www.cambridge.org/core/journals/oryx/article/plight-of-the-endangered-mountain-gazelle-gazella-gazella/EE6B2AC340EC8B04F6BC1F0AA9EB65A7"
+    },
+    {
+      "nom": "Animals (2026) — Population Trends and Recruitment of the Endangered Hatay Mountain Gazelle (Gazella gazella) in Türkiye, 2020–2025",
+      "url": "https://www.mdpi.com/2076-2615/16/22/3579"
+    }
+  ]
+}
