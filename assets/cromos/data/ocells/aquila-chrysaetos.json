@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Aquila chrysaetos — àguila daurada",
+  "pesMascle": "3.600–4.000 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "4.000–6.700 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 75–100 cm; envergadura: 190–230 cm, segons ADW",
+  "midesFemella": "Longitud: 75–100 cm; envergadura: 190–230 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull rangs de pes diferents per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 46 anys en llibertat.",
+  "zones": "Amèrica del Nord, Europa, Àsia i nord d’Àfrica, segons ADW. La distribució és molt àmplia i inclou moltes subespècies.",
+  "habitat": "Muntanyes, penya-segats, boscos oberts, estepes i zones àrides; fa el niu en penya-segats o arbres alts, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Aquila_chrysaetos/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Aquila_chrysaetos/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Aquila_chrysaetos/"
+    }
+  ]
+}
