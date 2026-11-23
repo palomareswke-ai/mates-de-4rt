@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Cinclus cinclus — merla d’aigua",
+  "pesMascle": "55–75 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "55–75 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 17–20 cm; envergadura: 25–30 cm, segons ADW",
+  "midesFemella": "Longitud: 17–20 cm; envergadura: 25–30 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull el mateix rang de pes per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 10 anys en llibertat.",
+  "zones": "Europa, Àsia i nord d’Àfrica, segons ADW. És una espècie majoritàriament sedentària.",
+  "habitat": "Rius i rierols de corrent ràpid, llacs, zones humides i costes; fa el niu en cavitats, esquerdes i edificis prop de l’aigua, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Cinclus_cinclus/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Cinclus_cinclus/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Cinclus_cinclus/"
+    }
+  ]
+}
