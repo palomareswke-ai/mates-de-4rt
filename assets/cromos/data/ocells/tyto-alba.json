@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Tyto alba — mussol banyut",
+  "pesMascle": "260–500 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "300–550 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 33–39 cm; envergadura: 80–95 cm, segons ADW",
+  "midesFemella": "Longitud: 33–39 cm; envergadura: 80–95 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull rangs de pes diferents per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 34 anys en captivitat.",
+  "zones": "Distribució molt àmplia a tot el món, excepte zones polars extremes i algunes illes remotes, segons ADW. És una espècie majoritàriament sedentària.",
+  "habitat": "Zones rurals, camps, praderies, boscos oberts i entorns urbans; fa el niu en cavitats, edificis, graners i esquerdes, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Tyto_alba/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Tyto_alba/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Tyto_alba/"
+    }
+  ]
+}
