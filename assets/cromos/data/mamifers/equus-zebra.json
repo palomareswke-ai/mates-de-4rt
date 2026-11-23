@@ -1,0 +1,23 @@
+{
+  "nomCientific": "Equus zebra — zebra de muntanya",
+  "pesMascle": "Cebra de muntanya del Cap: 250–260 kg de mitjana; cebra de muntanya de Hartmann: 298 kg de mitjana, segons ADW (2005)",
+  "pesFemella": "Cebra de muntanya del Cap: 234 kg de mitjana; cebra de muntanya de Hartmann: 276 kg de mitjana, segons ADW (2005)",
+  "midesMascle": "Longitud cap i cos: 210–260 cm; cua: 40–55 cm; alçada a l’espatlla: 116–150 cm, segons ADW",
+  "midesFemella": "Longitud cap i cos: 210–260 cm; cua: 40–55 cm; alçada a l’espatlla: 116–150 cm, segons ADW",
+  "midesNota": "ADW no separa el rang general de longitud ni d’alçada per sexe, però recull mitjanes de pes diferents per sexe i subespècie. La longitud indicada és cap i cos, sense incloure la cua.",
+  "vida": "ADW publica una mitjana de 20 anys en llibertat i fins a 29,5–30 anys en captivitat; també recull una mitjana de 24 anys per a femelles en llibertat.",
+  "zones": "La cebra de muntanya del Cap viu només a Sud-àfrica, amb poblacions naturals al Parc Nacional de la Zebra de Muntanya, la reserva de Gamka Mountain i les muntanyes Kamanassie. La cebra de muntanya de Hartmann viu des de Namíbia fins al sud-oest extrem d’Angola, amb una distribució molt discontinua.",
+  "habitat": "Laderes i altiplans de zones muntanyoses de Sud-àfrica i Namíbia. La subespècie del Cap pot arribar fins a 2.000 m d’altitud i baixa a cotes inferiors a l’hivern; la de Hartmann viu en una zona àrida de transició al límit del desert del Namib, on ha de desplaçar-se entre muntanyes i planes sorrenques per trobar herba i aigua.",
+  "poblacio": null,
+  "conservacio": {
+    "codi": "VU",
+    "ambit": "ADW recull la categoria «Vulnerable» de la Llista Vermella per a l’espècie, però és una font de 2005 i no substitueix l’avaluació actual de la Llista Vermella. Les subespècies poden tenir categories diferents.",
+    "font": "https://animaldiversity.org/accounts/Equus_zebra/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2005) — pes, longitud, longevitat, distribució, hàbitat i conservació",
+      "url": "https://animaldiversity.org/accounts/Equus_zebra/"
+    }
+  ]
+}
