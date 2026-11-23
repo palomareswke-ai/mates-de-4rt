@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Lophura nycthemera — faisà platejat",
+  "pesMascle": "1.130–2.000 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "1.000–1.300 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 1.000–1.170 mm; cua: 510–775 mm; envergadura: 530–730 mm, segons ADW",
+  "midesFemella": "Longitud: 620–700 mm; cua: 280–455 mm; envergadura: 530–730 mm, segons ADW",
+  "midesNota": "La longitud indicada és la del cos, sense incloure la cua. ADW no separa l’envergadura per sexe.",
+  "vida": "No disponible: no s’ha trobat una estimació de longevitat específica per a l’espècie en les fonts consultades.",
+  "zones": "Sud-est asiàtic continental i insular, des de Myanmar i el sud de la Xina fins a les illes de Sumatra, Borneo, Taiwan i Hainan, segons ADW. La distribució és molt àmplia i inclou moltes subespècies.",
+  "habitat": "Boscos de fulla ampla i mixtos, de plana fins a muntanya; també pot viure en boscos secundaris, zones amb bambú, matolls i boscos de coníferes, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Lophura_nycthemera/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Lophura_nycthemera/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Lophura_nycthemera/"
+    }
+  ]
+}
