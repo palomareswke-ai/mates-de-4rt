@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Ficedula hypoleuca — papamoscas negro",
+  "pesMascle": "11–15 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "11–15 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 12–13,5 cm; envergadura: 21–24 cm, segons ADW",
+  "midesFemella": "Longitud: 12–13,5 cm; envergadura: 21–24 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull el mateix rang de pes per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 10 anys en llibertat.",
+  "zones": "Europa, Àsia i nord d’Àfrica, segons ADW. És una espècie majoritàriament migratòria, amb poblacions sedentàries en algunes zones.",
+  "habitat": "Boscos, matolls, jardins, parcs, zones rurals i entorns urbans; fa el niu en cavitats d’arbres i caixes niu, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Ficedula_hypoleuca/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Ficedula_hypoleuca/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Ficedula_hypoleuca/"
+    }
+  ]
+}
