@@ -1,0 +1,33 @@
+{
+  "nomCientific": "Sitta europaea — pica-soques blau",
+  "pesMascle": "17–28 g, segons fonts consultades; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "17–28 g, segons fonts consultades; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 12–14,5 cm; envergadura: 22,5–27 cm, segons fonts consultades",
+  "midesFemella": "Longitud: 12–14,5 cm; envergadura: 22,5–27 cm, segons fonts consultades",
+  "midesNota": "Les fonts consultades no separen la longitud ni l’envergadura per sexe, però recullen el mateix rang de pes per a mascles i femelles.",
+  "vida": "Les fonts consultades recullen una longevitat màxima registrada de 12 anys i 11 mesos en llibertat.",
+  "zones": "Europa, Àsia i nord d’Àfrica, segons fonts consultades. És una espècie majoritàriament sedentària, amb migracions locals en algunes zones.",
+  "habitat": "Boscos, matolls, jardins, parcs, zones rurals i entorns urbans; fa el niu en cavitats d’arbres i caixes niu, segons fonts consultades.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades.",
+    "unitat": "individus en llibertat",
+    "font": "https://animalia.bio/eurasian-nuthatch"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "Les fonts consultades recullen la categoria «Risc baix / preocupació menor» de la Llista Vermella, però no substitueixen l’avaluació actual de la Llista Vermella.",
+    "font": "https://www.birdfact.com/birds/nuthatch"
+  },
+  "fonts": [
+    {
+      "nom": "Animalia.bio — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animalia.bio/eurasian-nuthatch"
+    },
+    {
+      "nom": "Birdfact (2026) — pes, longitud, envergadura, distribució, hàbitat i conservació històrica",
+      "url": "https://www.birdfact.com/birds/nuthatch"
+    }
+  ]
+}

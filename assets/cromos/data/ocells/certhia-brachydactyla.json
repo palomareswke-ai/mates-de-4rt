@@ -1,0 +1,33 @@
+{
+  "nomCientific": "Certhia brachydactyla — raspinell comú",
+  "pesMascle": "7,5–11 g, segons fonts consultades; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "7,5–11 g, segons fonts consultades; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 12–13 cm; envergadura: 19–20 cm, segons fonts consultades",
+  "midesFemella": "Longitud: 12–13 cm; envergadura: 19–20 cm, segons fonts consultades",
+  "midesNota": "Les fonts consultades no separen la longitud ni l’envergadura per sexe, però recullen el mateix rang de pes per a mascles i femelles.",
+  "vida": "Les fonts consultades no recullen una longevitat màxima establerta per a aquesta espècie.",
+  "zones": "Europa, Àsia i nord d’Àfrica, segons fonts consultades. És una espècie majoritàriament sedentària, amb migracions locals en algunes zones.",
+  "habitat": "Boscos, matolls, jardins, parcs, zones rurals i entorns urbans; fa el niu en escletxes d’arbres i edificis, segons fonts consultades.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades.",
+    "unitat": "individus en llibertat",
+    "font": "https://antropocene.it/en/2023/10/27/certhia-brachydactyla-2/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "Les fonts consultades recullen la categoria «Risc baix / preocupació menor» de la Llista Vermella, però no substitueixen l’avaluació actual de la Llista Vermella.",
+    "font": "https://en.wikipedia.org/wiki/Short-toed_treecreeper"
+  },
+  "fonts": [
+    {
+      "nom": "Antropocene (2023) — pes, longitud, envergadura, distribució, hàbitat i conservació històrica",
+      "url": "https://antropocene.it/en/2023/10/27/certhia-brachydactyla-2/"
+    },
+    {
+      "nom": "AnAge (2023) — longevitat i observacions",
+      "url": "https://genomics.senescence.info/species/entry.php?species=Certhia_brachydactyla"
+    }
+  ]
+}
