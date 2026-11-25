@@ -1,0 +1,29 @@
+{
+  "nomCientific": "Phylloscopus trochilus — mosquiter pàl·lid",
+  "pesMascle": "7–12 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "pesFemella": "7–12 g, segons ADW; dada històrica amb un abast taxonòmic ampli",
+  "midesMascle": "Longitud: 11–12,5 cm; envergadura: 17–22 cm, segons ADW",
+  "midesFemella": "Longitud: 11–12,5 cm; envergadura: 17–22 cm, segons ADW",
+  "midesNota": "ADW no separa la longitud ni l’envergadura per sexe, però recull el mateix rang de pes per a mascles i femelles.",
+  "vida": "ADW recull una longevitat màxima registrada de 10 anys i 6 mesos en llibertat.",
+  "zones": "Europa, Àsia i nord d’Àfrica, segons ADW. És una espècie majoritàriament migratòria, amb poblacions sedentàries en algunes zones.",
+  "habitat": "Boscos, matolls, jardins, parcs, zones rurals i entorns urbans; fa el niu a terra o en vegetació baixa, segons ADW.",
+  "poblacio": {
+    "text": "No disponible",
+    "any": null,
+    "ambit": "No s’ha trobat una estimació global única i comparable en les fonts consultades. La fitxa d’ADW no inclou una població global.",
+    "unitat": "individus en llibertat",
+    "font": "https://animaldiversity.org/accounts/Phylloscopus_trochilus/"
+  },
+  "conservacio": {
+    "codi": "LC",
+    "ambit": "ADW recull la categoria «Risc baix / preocupació menor» de la Llista Vermella, però és una font de 2007 i no substitueix l’avaluació actual de la Llista Vermella.",
+    "font": "https://animaldiversity.org/accounts/Phylloscopus_trochilus/"
+  },
+  "fonts": [
+    {
+      "nom": "Animal Diversity Web (2007) — pes, longitud, envergadura, longevitat, distribució, hàbitat i conservació històrica",
+      "url": "https://animaldiversity.org/accounts/Phylloscopus_trochilus/"
+    }
+  ]
+}
